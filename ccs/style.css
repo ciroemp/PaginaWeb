@@ -1,8 +1,8 @@
 .header{
-    /*solo para visualizar despues se cambia*/
+    background-color: black;/*solo para visualizar despues se cambia*/
     
     }
-body {
+.bodyIndex {
     background-image: url(../imagen/FONDO.jpg);
     background-size: cover;
     background-position: center;
