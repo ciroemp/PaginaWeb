@@ -1,31 +1,162 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
-        <link rel="stylesheet" href="/ccs/style.css">
-</head>
-<body>
-
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../ccs/style.css" />
+  </head>
+  <body>
     <!-- Header -->
-  <header class="header">
-    <nav class="container d-flex justify-content-between align-items-center py-3">
-      
-      <!-- Logotipo -->
-      <div class="logo-text" style= "color: yellow">
-        LOGOTIPO
-      </div>
+    <header class="header">
+      <nav
+        class="container d-flex justify-content-between align-items-center py-3"
+      >
+        <!-- Logotipo -->
+        <div class="logo-text" style="color: yellow">LOGOTIPO</div>
 
-      <!-- Enlaces -->
-      <div class="d-flex gap-4">
-        <a href="/index.html" class="nav-link text-white">HOME</a>
-        <a href="/html/services.html" class="nav-link text-white">SERVICES</a>
-        <a href="/html/team.html" class="nav-link text-white">TEAM</a>
-        <a href="#" class="nav-link text-white">CONTACT</a>
-      </div>
-    </nav>
+        <!-- Enlaces -->
+        <div class="d-flex gap-4">
+          <a href="/index.html" class="nav-link text-white">HOME</a>
+          <a href="/html/services.html" class="nav-link text-white">SERVICES</a>
+          <a href="/html/team.html" class="nav-link text-white">TEAM</a>
+          <a href="#" class="nav-link text-white">CONTACT</a>A
+        </div>
+      </nav>
+    </header>
+    <br /><br />
+    <section class="contact-section text-center">
+      <div class="container">
+        <h2 class="text-uppercase mb-2">Contact Us</h2>
+        <p class="contact-min mb-5">Lorem ipsum dolor sit amet consectetur.</p>
 
-        
-  </header>
+        <form>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Your Name *"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Your Email *"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="tel"
+                    class="form-control"
+                    placeholder="Your Phone *"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="mb-3 h-100">
+                  <textarea
+                    class="form-control h-100"
+                    rows="7"
+                    placeholder="Your Message *"
+                    required
+                  ></textarea>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <br />
+
+          <button type="submit" class="btn btn-send text-white">
+            SEND MESSAGE
+          </button>
+        </form>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="row p-2">
+          <div class="col-4">
+            <span>Copyright © Your Website</span>
+          </div>
+          <div class="col-4">
+            <div class="social-icons">
+              <a href="#"
+                ><i class="fab fa-twitter"></i
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="2em"
+                  height="2em"
+                  viewBox="0 0 1024 1024"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448s448-200.6 448-448S759.4 64 512 64m215.3 337.7c.3 4.7.3 9.6.3 14.4c0 146.8-111.8 315.9-316.1 315.9c-63 0-121.4-18.3-170.6-49.8c9 1 17.6 1.4 26.8 1.4c52 0 99.8-17.6 137.9-47.4c-48.8-1-89.8-33-103.8-77c17.1 2.5 32.5 2.5 50.1-2a111 111 0 0 1-88.9-109v-1.4c14.7 8.3 32 13.4 50.1 14.1a111.13 111.13 0 0 1-49.5-92.4c0-20.7 5.4-39.6 15.1-56a315.28 315.28 0 0 0 229 116.1C492 353.1 548.4 292 616.2 292c32 0 60.8 13.4 81.1 35c25.1-4.7 49.1-14.1 70.5-26.7c-8.3 25.7-25.7 47.4-48.8 61.1c22.4-2.4 44-8.6 64-17.3c-15.1 22.2-34 41.9-55.7 57.6"
+                  /></svg
+              ></a>
+              <a href="#"
+                ><i class="fab fa-facebook-f"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="2em"
+                    height="2em"
+                    viewBox="0 0 24 24"
+                  >
+                    <g fill="none">
+                      <defs>
+                        <mask id="lineiconsFacebookRounded0">
+                          <path
+                            fill="#fff"
+                            fill-rule="evenodd"
+                            d="M12 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12S6.477 2 12 2"
+                            clip-rule="evenodd"
+                          />
+                          <path
+                            fill="#000"
+                            d="M13.3 21.916v-7.724h2.177l.288-2.719H13.3l.004-1.36c0-.71.067-1.09 1.086-1.09h1.361V6.306h-2.178c-2.616 0-3.537 1.318-3.537 3.536v1.633h-1.63v2.718h1.63v7.615a10 10 0 0 0 3.264.109"
+                          />
+                        </mask>
+                      </defs>
+                      <path
+                        fill="currentColor"
+                        d="M0 0h24v24H0z"
+                        mask="url(#lineiconsFacebookRounded0)"
+                      />
+                    </g></svg></i
+              ></a>
+              <a href="#"
+                ><i class="fab fa-linkedin-in"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="2em"
+                    height="2em"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M10 .4C4.698.4.4 4.698.4 10s4.298 9.6 9.6 9.6s9.6-4.298 9.6-9.6S15.302.4 10 .4M7.65 13.979H5.706V7.723H7.65zm-.984-7.024c-.614 0-1.011-.435-1.011-.973c0-.549.409-.971 1.036-.971s1.011.422 1.023.971c0 .538-.396.973-1.048.973m8.084 7.024h-1.944v-3.467c0-.807-.282-1.355-.985-1.355c-.537 0-.856.371-.997.728c-.052.127-.065.307-.065.486v3.607H8.814v-4.26c0-.781-.025-1.434-.051-1.996h1.689l.089.869h.039c.256-.408.883-1.01 1.932-1.01c1.279 0 2.238.857 2.238 2.699z"
+                    /></svg></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-4">
+            <span>Privacy Policy Terms Of Use</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

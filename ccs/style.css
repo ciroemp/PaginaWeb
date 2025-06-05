@@ -37,3 +37,53 @@
 .icon-white {
     color: white;
 }
+
+.team-member img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 5px solid #eee;
+    }
+    .social-icons a {
+      color: #333;
+      font-size: 18px;
+      margin: 0 8px;
+    }
+    .navbar .nav-link.active {
+      color: #f0c040 !important;
+    }
+
+
+    .contact-section {
+      background: url('https://www.transparenttextures.com/patterns/dark-mosaic.png'), #1e1e1e;
+      background-size: cover;
+      color: white;
+      padding: 80px 0;
+      height: 100%;
+    }
+    .contact-section h2 {
+      font-weight: 700;
+    }
+    .form-control {
+      border-radius: 0.375rem;
+      padding: 15px;
+      font-size: 16px;
+    }
+    .form-control::placeholder {
+      color: #bbb;
+    }
+    .btn-send {
+      background-color: #f6c343;
+      border: none;
+      padding: 12px 30px;
+      font-weight: bold;
+      border-radius: 0.375rem;
+    }
+    .btn-send:hover {
+      background-color: #e0b02e;
+    }
+    .contact-min{
+      color: rgb(153, 153, 153);
+      font-style: italic;
+    }
